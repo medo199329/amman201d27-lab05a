@@ -27,11 +27,6 @@ Test this function by hand in the console to get it working, and when you think 
 
 // Write your code here
 function multiply(a, b) {
-<<<<<<< HEAD
-  let x =
-  
-}
-=======
     let x = a * b;
     let pro = 'The product of ' + a + ' and ' + b + ' is ' + pro + '.';
     return [x,pro];
@@ -39,7 +34,6 @@ function multiply(a, b) {
   
 
 
->>>>>>> 967ed8ab86e96bcb1bc2ab6a84e282fc105ae5fe
 // Here is the test for multiply(); uncomment it to run it
 // testMultiply(5,9);
 
@@ -101,11 +95,17 @@ Test this function by hand in the console to get it working, and when you think 
 
 // Write your code here
 function multiplyArray(multArr) {
-  //eslint-disable-line
+  let firstStep = multiply(testArray[0], testArray[1])[0];
+  let secondStep = multiply(firstStep, testArray[2])[0];
+  let secondElement = 'The numbers ' + testArray[0] + ',' + testArray[1] + ',' + testArray[2] + ' have a product of ' + secondStep + '.';
+  return [secondStep, secondElement];
 }
 
+  //eslint-disable-line
+
+
 // Here is the test for multiplyArray(); uncomment it to run it
-// testMultiplyArray(testArray);
+ testMultiplyArray(testArray);
 
 // Once you get the test passing, do an a-c-p cycle and synchronize the code between GitHub and your laptop.
 
@@ -131,6 +131,7 @@ let testDynamicArray = [1, 2, 3, 4, 5]; //eslint-disable-line
 function multiplyAnyArray(dynamicArray) {
   //eslint-disable-line
 }
+
 
 // Here is the test for multiplyArray(); uncomment it to run it
 // testMultiplyAnyArray(testDynamicArray);
