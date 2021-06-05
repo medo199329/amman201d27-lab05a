@@ -85,8 +85,11 @@ Test this function by hand in the console to get it working, and when you think 
 let testArray = [2, 3, 4]; //eslint-disable-line
 
 function sumArray(sumArr) {
-  //eslint-disable-line
+  
+
 }
+  //eslint-disable-line
+
 
 // Here is the test for sumArray(); uncomment it to run it
 
