@@ -27,19 +27,16 @@ Test this function by hand in the console to get it working, and when you think 
 
 // Write your code here
 function multiply(a, b) {
-<<<<<<< HEAD
+ HEAD
   let x =
   
 }
-=======
+
     let x = a * b;
     let pro = 'The product of ' + a + ' and ' + b + ' is ' + pro + '.';
     return [x,pro];
-  }
-  
 
 
->>>>>>> 967ed8ab86e96bcb1bc2ab6a84e282fc105ae5fe
 // Here is the test for multiply(); uncomment it to run it
 // testMultiply(5,9);
 
