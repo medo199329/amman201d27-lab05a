@@ -100,7 +100,14 @@ IMPORTANT DETAIL: You may not use the arithmetic operator * in this function. To
 Test this function by hand in the console to get it working, and when you think it is finished, uncomment the call for the testMultiplyArray() function and see if the test passes.*/
 
 // Write your code here
-function multiplyArray(multArr) {
+  function multiplyArray(testArray) { //eslint-disable-line
+    let firstMultiply_1 = multiply(testArray[0],testArray[1])[0];
+    let secondMultiply_1 = multiply(firstMultiply_1,testArray[2])[0];
+    let string_5 = 'The numbers ' + testArray + ' have a product of ' + secondMultiply_1 + '.';
+    let multiplyArray = [];
+    multiplyArray.push(secondMultiply_1, string_5);
+    return multiplyArray;
+  }
   //eslint-disable-line
 }
 
