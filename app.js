@@ -27,11 +27,11 @@ Test this function by hand in the console to get it working, and when you think 
 
 // Write your code here
 function multiply(a, b) {
-<<<<<<< HEAD
+
   let x =
   
 }
-=======
+
     let x = a * b;
     let pro = 'The product of ' + a + ' and ' + b + ' is ' + pro + '.';
     return [x,pro];
@@ -39,7 +39,7 @@ function multiply(a, b) {
   
 
 
->>>>>>> 967ed8ab86e96bcb1bc2ab6a84e282fc105ae5fe
+
 // Here is the test for multiply(); uncomment it to run it
 // testMultiply(5,9);
 
@@ -58,11 +58,16 @@ Test this function by hand in the console to get it working, and when you think 
 
 // Write your code here
 function sumAndMultiply(a, b, c) {
-  //eslint-disable-line
+  function multiplyArray(multArr) {
+    let firstStep = multiply(testArray[0], testArray[1])[0];
+    let secondStep = multiply(firstStep, testArray[2])[0];
+    let secondElement = 'The numbers ' + testArray[0] + ',' + testArray[1] + ',' + testArray[2] + ' have a product of ' + secondStep + '.';
+    return [secondStep, secondElement];
+  }
 }
 
 // Here is the test for sumAndMultiply(); uncomment it to run it
-// testSumAndMultiply(4,7,5);
+ testSumAndMultiply(4,7,5);
 
 // Once you get the test passing, do an a-c-p cycle and synchronize the code between GitHub and your laptop. Don't forget to create a new branch for your work on the next question!
 
