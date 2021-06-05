@@ -26,11 +26,7 @@ Write a function called multiply() that takes in two numbers as arguments and re
 Test this function by hand in the console to get it working, and when you think it is finished, uncomment the call for the testMultiply() function and see if the test passes.*/
 
 // Write your code here
-function multiply(a, b) {
-    let x = a * b;
-    let pro = 'The product of ' + a + ' and ' + b + ' is ' + pro + '.';
-    return [x,pro];
-  }
+
   
 
 
@@ -71,7 +67,7 @@ IMPORTANT DETAIL: You may not use the arithmetic operator + in this function. To
 Test this function by hand in the console to get it working, and when you think it is finished, uncomment the call for the testSumArray() function and see if the test passes.*/
 
 // Write your code here
-let testArray = [2, 3, 4]; //eslint-disable-line
+//let testArray = [2, 3, 4]; //eslint-disable-line
 
 function sumArray(sumArr) {
   //eslint-disable-line
@@ -94,12 +90,7 @@ IMPORTANT DETAIL: You may not use the arithmetic operator * in this function. To
 Test this function by hand in the console to get it working, and when you think it is finished, uncomment the call for the testMultiplyArray() function and see if the test passes.*/
 
 // Write your code here
-function multiplyArray(multArr) {
-  let firstStep = multiply(testArray[0], testArray[1])[0];
-  let secondStep = multiply(firstStep, testArray[2])[0];
-  let secondElement = 'The numbers ' + testArray[0] + ',' + testArray[1] + ',' + testArray[2] + ' have a product of ' + secondStep + '.';
-  return [secondStep, secondElement];
-}
+
 
   //eslint-disable-line
 
